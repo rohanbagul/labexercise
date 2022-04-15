@@ -1,0 +1,205 @@
+ @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --font-family: 'Manrope', sans-serif;
+  
+    --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    --color-bg: #040C18;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+}
+*{
+    font-family: var(--font-family);
+    
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    background-color:var(--color-bg) ;
+
+}
+
+.logo{
+    width: 10rem;
+    margin-right: 550px;
+    margin-left: 10px;
+}
+p{
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text);
+
+}
+a[href]{
+    text-decoration: none;
+    color:var(--gradient-text);
+}
+
+.user_image{
+    width: 5rem;
+}
+
+a:hover{
+    background-color:#042c54;
+    color: white;
+}
+.css{
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.main__content{
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+    color: var(--color-text);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.welcome{
+    font-weight: 1000;
+    font-size: 30px;
+    /* color: var(--gradient-text); */
+    background: #121FCF;
+background: -webkit-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+background: -moz-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.signup_form{
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 40, 83, 1) ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    color: var(--color-text);
+    
+}
+input{
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 7px;
+}
+button{
+    width: 150px;
+    margin-left: 150px;
+    border-radius: 4px;
+    background-color:var(--color-blog);
+    color: white;
+}
+
+.courses{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 40, 83, 1) ;
+}
+.card{    
+    margin-top: 25px;
+
+    width: 25%;
+    height:600px;
+}
+.card-body{
+    background-color: var(--color-blog);
+    color: var(--color-text);
+}
+/* .card-img-top{
+    width: 203px;
+    height: 135.32px;
+} */
+a[href="https://www.mygreatlearning.com/?keyword=online%20marketing%20courses&gclid=Cj0KCQjwr-SSBhC9ARIsANhzu146QYyb3NJcCIOJIL_JIZYglKkp_rcjLhsEAFnkR3RboTnc-v_7UkAaAq5yEALw_wcB" ]{
+    color:var(--color-subtext);
+    padding:40px;
+}
+.extro{
+    display: flex;
+    background-color: var(--color-bg);
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    color:var(--color-text);
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 100px;
+    
+    
+
+}
+img[src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/banner-new-hp.png"]{
+    width: 75%;
+}
+
+.rohan{
+    background: #00FF00;
+background: -webkit-linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+background: -moz-linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.buton{
+    box-sizing: border-box;
+}
