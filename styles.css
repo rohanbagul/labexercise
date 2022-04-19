@@ -209,3 +209,10 @@ input[type=submit]{
     background-color:var(--color-subtext);
     color: white;
 }
+
+.footer{
+    background-color: var(--color-text);
+    height: 100px;
+    padding-left: 600px;
+    padding-top: 50px;
+}
